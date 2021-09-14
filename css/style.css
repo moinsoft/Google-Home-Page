@@ -1,8 +1,51 @@
-
 *,
 *::before,
 *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*========================
+Header Area
+==========================*/
+
+.header {
+  display: flex;
+  gap: 20px;
+  padding: 20px 20px;
+  justify-content: end;
+  align-items: center;
+}
+
+.dot-menu,
+.profile {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 5px solid transparent;
+}
+
+.dot-menu:hover,
+.profile:hover {
+  background: #f0f0f0;
+  border: 5px solid #f0f0f0;
+}
+
+.dot-menu a img {
+  width: 100%;
+  padding: 10px;
+}
+
+.profile a img {
+  width: 100%;
+}
+
+.gmail:hover,
+.images:hover {
+  text-decoration: underline;
 }
