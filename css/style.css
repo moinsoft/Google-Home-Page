@@ -147,3 +147,54 @@ Main Area
 .language a:hover {
   text-decoration: underline;
 }
+
+/*========================
+Footer Area
+==========================*/
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  background: #f2f2f2;
+  width: 100%;
+}
+
+.footer-top {
+  padding: 20px 40px;
+  border-bottom: 1px solid #dadce0;
+}
+.footer-top p {
+  color: #6f6f6f;
+}
+
+.footer-bottom {
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-left ul,
+.footer-right ul {
+  list-style: none;
+}
+
+.footer-left ul li,
+.footer-right ul li {
+  display: inline;
+  margin-right: 40px;
+}
+
+.footer-left ul li:last-child,
+.footer-right ul li:last-child {
+  margin-right: 0;
+}
+
+.footer-left ul li a,
+.footer-right ul li a {
+  color: #6f6f6f;
+}
+
+.footer-left ul li a:hover,
+.footer-right ul li a:hover {
+  text-decoration: underline;
+}
